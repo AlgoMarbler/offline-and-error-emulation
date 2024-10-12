@@ -34,7 +34,7 @@ internal fun Screen(viewState: ViewState) {
 fun NormalScreen(screenData: ViewState.ScreenViewState) {
     Text(text = screenData.title)
     Image(
-        painter = painterResource(id = R.drawable.epic_book), // Reference to epic_book.webp
+        painter = painterResource(id = R.drawable.epic_book),
         contentDescription = "Epic Book Image"
     )
     Text(text = screenData.confirmNormal)
